@@ -39,6 +39,6 @@ function scream(str) {
         if (word.includes('scream')) {
             strArray[i] = word.toUpperCase()
         }
-    }
+    }return strArray.join()
 }
-console.log(scream(text))
+console.log(scream(text));
